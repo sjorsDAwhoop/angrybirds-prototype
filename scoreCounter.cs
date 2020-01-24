@@ -8,6 +8,7 @@ public class scoreCounter : MonoBehaviour
     private Text textComponent;
     private int score;
     public int Score
+    
     {
         get
         {
