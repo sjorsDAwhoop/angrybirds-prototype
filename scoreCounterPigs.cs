@@ -21,7 +21,6 @@ public class scoreCounterPigs : MonoBehaviour {
     {
         if (collision.relativeVelocity.magnitude > 0 && catapult.PointsActive == true)
         {
-            //Debug.Log(Mathf.RoundToInt(collision.relativeVelocity.magnitude));
             scoreValue = Mathf.RoundToInt(collision.relativeVelocity.magnitude) * 50;
             Debug.Log(scoreValue);
             scorecounter.Score += scoreValue;
